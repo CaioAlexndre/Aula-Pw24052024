@@ -1,0 +1,13 @@
+uso git bash
+
+git init --> começa o repositorio
+git config --global user.email "define meu email aqui"
+git config --global user.name "define meu nome de usuario aqui"
+
+git status --> verifica se há untracked files 
+git add . --> adiciona todas as untracked files para uma preparação de commit
+git commit -m "crio um commit"
+
+git rm -r --cached --> remove um arquivo
+git restore <file> --> restaura uma arquivo para o ultimo commit
+
